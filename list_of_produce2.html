@@ -1,0 +1,650 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="wraper">
+            <div class="topHead">
+                <img class="logo" src="images/logo01.png" />
+                <div class="topMenu">
+                    <div class="cartTop">
+                        <a class="cart" href="#">
+                            <i class="bi bi-cart"></i>
+                            <span>Giỏ hàng<span class="redText">(00)</span></span>
+                        </a>
+                    </div>
+                    <div class="memberTop">
+                        <a class="member" href="#">
+                            <i class="bi bi-person"></i>
+                            <span>Thành viên</span>
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <i class="bi bi-telephone"></i>
+                        <span class="redText">0938.36.18.18 - 0966.000.005</span>
+                    </div>
+                    <div class="lang">
+                        <img class="flaglogo" src="images/vietnamflag.png" />
+                        <img class="flaglogo" src="images/unitedkingdomflag.png" />
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="botHead">
+            <nav class="navbar navbar-expand-lg navbar-light botMenu">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse topMenu" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="whiteText active" aria-current="page" href="home.html"><svg width="32" height="32" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M8.156 1.835a.25.25 0 00-.312 0l-5.25 4.2a.25.25 0 00-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v5.25h2.75a.25.25 0 00.25-.25V6.23a.25.25 0 00-.094-.195l-5.25-4.2zM6.906.664a1.75 1.75 0 012.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0113.25 15h-3.5a.75.75 0 01-.75-.75V9H7v5.25a.75.75 0 01-.75.75h-3.5A1.75 1.75 0 011 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2h-.001z"></path></svg></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="about_us.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Câu chuyện <br>về Vĩnh Tiến
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="list_of_produce.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản <br>Phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dịch <br>Vụ
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="News.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tin tức <br>sự kiện
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class=" whiteText" href="#">Hệ Thống<br> phân phối</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="whiteText" href="contact.html">Liên hệ <br>hỗ trợ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <a class="txthotline" href="#">
+                <div class="hotline">
+                    <i class="bi bi-telephone"></i></br>
+                    <span>Hot line</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <div><a href="#"><img style="width:100%" src="images/bg2.jpg" /></a></div>
+        <div class="about-us-des">
+            <div class="wrapper">
+                <div class="about-us-des-link">
+                    <span><a class="black link-deco" href="http://localhost:50495/home.html#">Trang chủ > </a></span>
+                    <span><a class="black link-deco" href="#">Sản Phẩm </a></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="wrapper">
+                <div style="display:flex">
+                    <div id="vnt-sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="menuProduct">
+                            <div class="title">Sản phẩm</div>
+                            <div class="content">
+                                <ul>
+                                    <li class=" has_sub">
+                                        <a href="#" style="background-image: url(images/icon_menu_sp.png);">Vibook</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" style="background-image: url(images/icon_menu_sp.png);">Vipaper</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" style="background-image: url(images/icon_menu_sp.png);">Vifile</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" style="background-image: url(images/icon_menu_sp2.png);">Khẩu trang - Vĩnh Tiến</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" style="background-image: url(images/icon_menu_sp.png);">Các sản phẩm gia công khác - Vĩnh Tiến</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="vnt-main" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+                        <div class="box_mid">
+                            <div class="mid-title">
+                                <div class="titleL"><h1>Sản phẩm</h1></div>
+                                <div class="titleR"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="mid-content">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp25.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook Gold &ldquo; Marsupilami 100 Trang &ldquo;">Tập Vibook Gold "Marsupilami" 100 Trang</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T100R. </div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>12,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>11,500</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp26.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook&ldquo;Monokuro Boo&ldquo; 200 Trang">Tập Vibook "Monokuro Boo" 200 Trang</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T05R-3</div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>18,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>14,700</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp27.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook Ten&ldquo;Me And You&ldquo;96 Trang">Tập Vibook Ten "Me And You" 96 Trang</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T48_14</div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>9,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>8,500</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp28.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook Happy &quot;SoGood&quot; 96 Trang">Tập Vibook Happy "SoGood" 96 Trang</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T113</div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>9,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>7,400</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp29.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập sinh viên &quot;Monokuroboo&quot; 100 trang ô ly">Tập sinh viên "Monokuroboo" 100 trang ô ly</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: TSV1M. </div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp30.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook happy &quot;Monokuroboo&quot; 96tr">Tập Vibook happy "Monokuroboo" 96tr</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T104.(R) </div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp31.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Sure Paper Pro A4 80gsm” ">Sure Paper Pro A4 80gsm</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: G22.</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div><div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp32.png"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Sure Paper A4 70gsm">Sure Paper A4 70gsm</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: G09.</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp33.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title=" Eagle photocopy paper A4 60gsm">Eagle photocopy paper A4 60gsm</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: GIGO60</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp34.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title=" Sổ bao da cao cấp "Deluxe" 160tr">Sổ bao da cao cấp "Deluxe" 160tr</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: TKT01O.(R.)</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp35.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Kiểm Tra 84 Trang caro">Tập Kiểm Tra 84 Trang caro</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T100R_15</div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>9,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>8,500</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp36.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Kiểm Tra  84Tr 5 oly">Tập Kiểm Tra  84Tr 5 oly</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: LX </div>
+                                            <div class="price">
+                                                <div class="normal">
+                                                    <span>9,000</span> <span>Vnđ</span>
+                                                </div> -
+                                                <div class="reduce">
+                                                    <span>8,500</span> <span>Vnđ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a href="#"><img src="images/sp37.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập Vibook &quot;Sunflower&quot; in caro 5 ô ly 200 trang">Tập Vibook "Sunflower" in caro 5 ô ly 200 trang</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: T05R-4 </div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img">
+                                                <a  href="#"><img src="images/sp38.jpg"></a>
+                                                <span class="floatImgPro"></span>
+                                            </div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập sinh viên &quot;School Idol Project&quot; 200tr ô ly">Tập sinh viên "School Idol Project" 200tr ô ly</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: TSV2-11 </div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product">
+                                            <div class="img"><a href="#"><img src="images/sp39.jpg"></a></div>
+                                            <div class="tend">
+                                                <h3><a href="#" title="Tập sinh viên &quot;Dream color&quot; 100 trang ô ly">Tập sinh viên "Dream color" 100 trang ô ly</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: TSV1-3</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                        <div class="product" >
+                                            <div class="img"><a href="#"><img src="images/sp40.jpg"></a></div>
+                                            <div class="tend">
+                                                <h3 ><a href="#" title="Tập sinh viên &quot;Happiness&quot; 100 trang oly">TTập sinh viên "Happiness" 100 trang oly</a> </h3>
+                                            </div>
+                                            <div class="ms">Mã sản phẩm: TSV1-11</div>
+                                            <div class="price">
+                                                <div class="reduce">
+                                                    Call
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                    <div class="pagination">
+                                        <ul>
+                                            <li>
+                                                <a href="list_of_produce.html" class="pagelink">1</a>                                                
+                                            </li>
+                                            <li>
+                                                <span class="pagecur">2</span>
+                                            </li>
+                                            <li>
+                                                <a href="list_of_produce3.html" class="pagelink">3</a>
+                                            </li>
+                                            <li>
+                                                <a href="list_of_produce4.html" class="pagelink">4</a>
+                                            </li>
+                                            <li>
+                                                <a href="list_of_produce4.html" class="btnPage">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="menufoot">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="whiteText1" href="home.html"><i class="bi bi-house"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="about_us.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Thiết kế-theo-yêu cầu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="News.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Hình ảnh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Bảng giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Đối tác</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText1" href="#">Hệ thống phân phối</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="whiteText2" href="contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="vnt-bot ">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <div class="boxBot" style="margin-bottom: 20px;">
+                                <div class="title">CÔNG TY CỔ PHẦN GIẤY VĨNH TIẾN</div>
+                                <div class="content">
+                                    <div class="address">
+                                        <ul>
+                                            <li class="fa-home">Công ty: 99 Cao Xuân Dục, Phường 12, Quận 8, Thành phố Hồ Chí Minh</li>
+                                            <li class="fa-home">VPGD: 1068 Tạ Quang Bửu, Phường 6, Quận 8, TP.HCM</li>
+                                            <li class="fa-phone">(028).38557575 - 38571003 - 39120915</li>
+                                            <li class="fa-print">(028).38560714</li>
+                                            <li class="fa-envelope">info@vinhtien.vn, kinhdoanh@vinhtien.vn</li>
+                                            <li class="fa-globe">www.vinhtienpaper.com.vn</li>
+                                        </ul>
+                                        <a href="https://www.vinhtienpaper.com.vn/vn/lien-he.html" class="viewMap"><span>Xem bản đồ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                            <div class="boxBot">
+                                <div class="title">HỖ TRỢ KHÁCH HÀNG</div>
+                                <div class="content">
+                                    <div class="botLink">
+                                        <ul>
+                                            <li>
+                                                <a class="chinhsach" href="#">Chính sách đổi hàng</a>
+                                            </li>
+                                            <li>
+                                                <a class="chinhsach" href="#">Thanh toán và vận chuyển</a>
+                                            </li>
+                                            <li>
+                                                <a class="chinhsach" href="#">Chính sách bảo mật thông tin</a>
+                                            </li>
+                                            <li>
+                                                <a class="chinhsach" href="#">Chính sách công ty</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                            <div class="boxBot">
+                                <div class="title">ĐĂNG KÝ NHẬN MAIL</div>
+                                <div class="content">
+                                    <div class="formRecive">
+                                        <div class="txt">Nhập email của bạn vào đây để nhận được những thông tin - khuyến mãi mới nhất của chúng tôi.</div>
+                                        <form class="add_mail_form" action="#" method="POST">
+                                            <input name="receive_mail" id="receive_mail" type="text" placeholder="Nhập email của bạn...">
+                                            <input name="do_mail" value="1" type="hidden">
+                                            <input type="hidden" id="page_url" name="page_url" value="">
+                                            <button name="do_recive" type="submit" value="1"><span>Gửi</span></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="vnt-foot lazyloading showlazy">
+                    <div class="fl">
+                        <div class="copyright" style="transition-delay: 0.8s;">
+                            <div class="copy">Copyright © 2017 <strong>CÔNG TY CỔ PHẦN GIẤY VĨNH TIẾN</strong></div>
+                        </div>
+                    </div>
+                    <div class="fr">
+                        <div class="socialFoot">
+                            <ul>
+                                <li>
+                                    <a target="_blank" href="#">
+                                        <div class="blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path xmlns="http://www.w3.org/2000/svg" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                            </svg>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="#">
+                                        <div class="blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                            </svg>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="#">
+                                        <div class="blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                            </svg>
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="linkBot" style="transition-delay: 1.2s;">
+                            <div class="title">Liên kết link---</div>
+                            <ul>
+                                <li><a href="" target="_blank">Google</a></li>
+                                <li><a href="" target="_blank">Youtube</a></li>
+                                <li><a href="" target="_blank">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="congthuong lazyloading showlazy">
+                    <div class="img"><img src="https://www.vinhtienpaper.com.vn/vnt_upload/weblink/congthuong.png" alt=""></div>
+                    <div class="txt" style="transition-delay: 1.6s;">
+                        <p>Giấy phép kinh doanh số: 0311795831 cấp ngày 21/05/2012 bởi Sở Kế hoạch và Đầu Tư TP.Hồ Chí Minh.</p>
+                        <p>Người đại diện: Ông Lâm An Dậu</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

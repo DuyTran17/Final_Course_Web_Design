@@ -1,0 +1,628 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="wraper">
+            <div class="topHead">
+                <img class="logo" src="images/logo01.png" />
+                <div class="topMenu">
+                    <div class="cartTop">
+                        <a class="cart" href="#">
+                            <i class="bi bi-cart"></i>
+                            <span>Giỏ hàng<span class="redText">(00)</span></span>
+                        </a>
+                    </div>
+                    <div class="memberTop">
+                        <a class="member" href="#">
+                            <i class="bi bi-person"></i>
+                            <span>Thành viên</span>
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <i class="bi bi-telephone"></i>
+                        <span class="redText">0938.36.18.18 - 0966.000.005</span>
+                    </div>
+                    <div class="lang">
+                        <img class="flaglogo" src="images/vietnamflag.png" />
+                        <img class="flaglogo" src="images/unitedkingdomflag.png" />
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="botHead">
+            <nav class="navbar navbar-expand-lg navbar-light botMenu">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse topMenu" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="whiteText active" aria-current="page" href="home.html"><svg width="32" height="32" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M8.156 1.835a.25.25 0 00-.312 0l-5.25 4.2a.25.25 0 00-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v5.25h2.75a.25.25 0 00.25-.25V6.23a.25.25 0 00-.094-.195l-5.25-4.2zM6.906.664a1.75 1.75 0 012.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0113.25 15h-3.5a.75.75 0 01-.75-.75V9H7v5.25a.75.75 0 01-.75.75h-3.5A1.75 1.75 0 011 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2h-.001z"></path></svg></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="about_us.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Câu chuyện <br>về Vĩnh Tiến
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="list_of_produce.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản <br>Phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dịch <br>Vụ
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="whiteText " href="News.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tin tức <br>sự kiện
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class=" whiteText" href="#">Hệ Thống<br> phân phối</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="whiteText" href="contact.html">Liên hệ <br>hỗ trợ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <a class="txthotline" href="#">
+                <div class="hotline">
+                    <i class="bi bi-telephone"></i></br>
+                    <span>Hot line</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="vn_about1">
+            <div class="wrapper">
+                <div class="boxHome">
+                    <div class="title"><h2><span>VĨNH TIẾN</span> VỮNG BỀN VÀ PHÁT TRIỂN</h2></div>
+                    <div class="content">
+                        <div class="aboutWrap">
+                            <div class="col1 hidden-sm hidden-xs">
+                                <div class="about">20 năm liền đạt danh hiệu <strong>“Hàng Việt Nam Chất Lượng Cao”</strong> do người tiêu dùng bình chọn</div><div class="about">Liên tục đứng đầu Top ngành Tập Học Sinh – Giấy, <strong>Top 50 thương hiệu nổi tiếng Việt Nam</strong></div><div class="about"><strong>Danh hiệu Sao vàng Đất Việt </strong> (năm 2003 - 2005)</div>
+                            </div>
+                            <div class="col2 hidden-sm hidden-xs">
+                                <div class="about v2"><strong>Sản phẩm Ấn tượng và Yêu thích nhất</strong> do độc giả báo Khăn Quàng Đỏ và Mực Tím bình chọn</div><div class="about v2"><strong>Sản phẩm được yêu thích nhất nhiều năm qua</strong> do Báo Đại Đoàn Kết bình chọn</div><div class="about v2"><strong>Ông Lâm An Dậu - Người sáng lập Công ty Giấy VĨNH TIẾN</strong> và tập thể CBCNV VĨNH TIẾN vinh dự được Bộ Giáo Dục &amp; Đào Tạo trao tặng danh hiệu <strong>“Vì Sự Nghiệp Giáo Dục”</strong></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="img_nai"><img src="https://www.vinhtienpaper.com.vn/vnt_upload/weblink/a1.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bangkhen">
+            <div class="wrapper">
+                <div class="txtbangkhen">Chứng nhận & giải thưởng</div>
+                <div>
+                    <div id="khungc">
+                        <img class="khunganh" src="images/c1.jpg" />
+                        <img class="khunganh" src="images/c2.jpg" />
+                        <img class="khunganh" src="images/c3.jpg" />
+                        <img class="khunganh" src="images/c4.jpg" />
+                        <img class="khunganh" src="images/c5.jpg" />
+                        <img class="khunganh" src="images/c6.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="muaban">
+            <div class="wrapper">
+                <div class="muabanl">
+                    <div class="iconvibookframe">
+                        <img class="iconvibook" src="images/vietbookicon.png" />
+                        <span class="txtvibookicon">VIBOOK</span>
+                    </div>
+                    <h4 style="color:#ff0000 ; margin-top:5px">TẬP VIBOOK DÀNH CHO HỌC SINH - SINH VIÊN - VĨNH TIẾN</h4>
+                    <p><strong>VĨNH TIẾN</strong> hiện là đối tác đáng tin cậy của người tiêu dùng nội địa và quốc tế. Tại thị trường nội địa, <strong>VĨNH TIẾN</strong> đã xây dựng 01 hệ thống phân phối dày đặc khắp cả nước. Với thị trường xuất khẩu, <strong>VĨNH TIẾN</strong> là sự chọn lựa hợp tác thân quen ở các nước như: Nhật, Campuchia, Lào….</p>
+                    <p>Trải qua hơn 39 năm năm thành lập và phát triển, với một đội ngũ nhân viên đầy nhiệt huyết, được trang bị kỹ lưỡng về kiến thức và chuyên môn. <strong>VĨNH TIẾN</strong>&nbsp;sẵn sàng tự tin phát triển trong môi trường cạnh tranh như hiện nay, vững vàng bước vào con đường hội nhập.</p>
+                    <p>Đặc tính của sản phẩm Tập học sinh&nbsp;<strong>Vibook</strong>: Mặt giấy láng mịn, viết êm tay; Quyển&nbsp;tập <strong>Vibook</strong> có đường kẻ ngang rõ ràng, đều đặn;&nbsp;Tập học sinh sử dụng độ trắng không làm hại mắt;&nbsp;Sản phẩm tập học Vibook cao cấp dành cho mọi lứa tuổi</p>
+                    <a href="list_of_produce.html" class="home-link_more" /"><span>xem tất cả</span"></a>
+                </div>
+                <div class="muabanr">
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp1.jpg" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="price">8000 VND </span>
+                            <span class="discout-price"> - 7,500 VND </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp2.jpg" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="price">8000 VND </span>
+                            <span class="discout-price"> - 7,500 VND </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="muaban">
+            <div class="wrapper">
+                <div class="muabanleft">
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp3.jpg" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="discout-price"> Call </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp4.png" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="discout-price"> Call </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="muabanright">
+                    <div class="iconvibookframe">
+                        <img class="iconvibook" src="images/vietbookicon.png" />
+                        <span class="txtvibookicon">VIPAPER</span>
+                    </div>
+                    <h4 style="color:#ff0000 ; margin-top:5px">SẢN PHẨM LÀ GIẤY PHOTOCOPY - VĨNH TIẾN</h4>
+                    <p>VĨNH TIẾN hiện là đối tác đáng tin cậy của người tiêu dùng nội địa và quốc tế. Tại thị trường nội địa, VĨNH TIẾN đã xây dựng 01 hệ thống phân phối dày đặc khắp cả nước. Với thị trường xuất khẩu, VĨNH TIẾN là sự chọn lựa hợp tác thân quen ở các nước như: Nhật, Campuchia, Lào….</p>
+                    <p>Trãi qua hơn 39 năm năm thành lập và phát triển, với một đội ngũ nhân viên đầy nhiệt huyết, được trang bị kỹ lưỡng về kiến thức và chuyên môn, sẵn sàng tự tin phát triển trong môi trường cạnh tranh như hiện nay, vững vàng bước vào con đường hội nhập.</p>
+                    <p><b><i>Giấy Vĩnh Tiến - Vibook</i></b>&nbsp;là loại <u>giấy in</u> cao cấp, trắng đẹp thích hợp với tất cả loại máy in Laser, máy photocopy, máy in, máy in màu, … <b><i>Giấy Vĩnh </i></b><em><strong>Tiến&nbsp; - Vibook </strong></em>có&nbsp;chất lượng hàng đầu với những biểu hiện xuất sắc bên cạnh những đặc tính thân thiện với môi trường, phù hợp cho&nbsp;việc sao chép, in ấn với những loại mực hộp, mực in, và cả những bản in off-set. Bề mặt&nbsp;<strong>giấy Vĩnh Tiến</strong>&nbsp;sáng, chất lượng tốt</p>
+                    <a href="list_of_produce.html" class="home-link_more" /"><span>xem tất cả</span"></a>
+                </div>
+            </div>
+        </div>
+        <div id="muaban">
+            <div class="wrapper">
+                <div class="muabanl">
+                    <div class="iconvibookframe">
+                        <img class="iconvibook" src="images/vietbookicon.png" />
+                        <span class="txtvibookicon">VIFILE</span>
+                    </div>
+                    <h4 style="color:#ff0000 ; margin-top:5px">SẢN PHẨM DÀNH CHO VĂN PHÒNG - VĨNH TIẾN</h4>
+                    <p><strong>In bìa lá nhựa A4 - Vifile</strong>&nbsp;(Bìa sơ mi nhựa, File kẹp nhựa…) được <em><strong>Vĩnh Tiến</strong>&nbsp;</em>sản xuất từ loại nhựa trong hoặc nhựa sữa với nội dung và thiết kế khác nhau dựa trên nhu cầu của khách hàng nhằm tạo nét riêng cho ấn phẩm nhận diện thương hiệu doanh nghiệp. Bìa sơ mi , bìa kẹp, bìa nút của <em><strong>Vĩnh Tiến</strong></em>&nbsp;được làm từ nhựa nên có độ bềnh cao và rất tiện dụng trong việc chứa đựng, lưu trữ hồ sơ, giấy tờ.</p>
+                    <p><strong>Vĩnh Tiến</strong> với nhiều năm kinh nghiệm hoạt động trong lĩnh vực in ấn nói chung, in trên bìa lá nhựa nói riêng và nắm bắt được nhu cầu của khách hàng, <strong>Vĩnh Tiến Paper</strong>&nbsp;cung cấp ra thị trường in ấn gói&nbsp;dịch vụ in bìa lá nhựa giá rẻ&nbsp;nhằm đáp ứng nhu cầu ngày càng tăng cao của khách hàng cũng như quảng bá rộng rãi thương hiệu&nbsp;</p>
+                    <p><strong>VĨNH TIẾN</strong> hiện là đối tác đáng tin cậy của người tiêu dùng nội địa và quốc tế. Tại thị trường nội địa, <strong>VĨNH TIẾN </strong>đã xây dựng 01 hệ thống phân phối dày đặc khắp cả nước. Với thị trường xuất khẩu, <strong>VĨNH TIẾN</strong> là sự chọn lựa hợp tác thân quen ở các nước như: Nhật, Campuchia, Lào…Trải qua hơn 39 năm năm thành lập và phát triển, với một đội ngũ nhân viên đầy nhiệt huyết, được trang bị kỹ lưỡng về kiến thức và chuyên môn, sẵn sàng tự tin phát triển trong môi trường cạnh tranh như hiện nay, vững vàng bước vào con đường hội nhập.</p>
+                    <p>&nbsp;</p>
+                    <a href="list_of_produce.html" class="home-link_more" /"><span>xem tất cả</span"></a>
+                </div>
+                <div class="muabanr">
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp6.jpg" />
+                        <a class="sp-link" href="#"><h6>Bìa nút VIFILE</h6></a>
+                        <div class="home-sp-price">
+                            <span class="discout-price"> Call </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp7.jpg" />
+                        <a class="sp-link" href="#"><h6>Bìa lá in theo yêu cầu</h6></a>
+                        <div class="home-sp-price">
+                            <span class="price">12 VND </span>
+                            <span class="discout-price"> - 8 VND </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="muaban">
+            <div class="wrapper">
+                <div class="muabanleft">
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp8.jpg" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="discout-price"> Call </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="home-sp-des">
+                        <img class="sp" src="images/sp9.jpg" />
+                        <a class="sp-link" href="#"><h6>Tập VIBOOK 96 Trang "Fresh Star"</h6></a>
+                        <div class="home-sp-price">
+                            <span class="discout-price"> Call </span>
+                        </div>
+                        <div class="i-cart">
+                            <a href="#" class="btn-cart"><span class="txt-buyname">Mua ngay</span><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="muabanright">
+                    <div class="iconvibookframe">
+                        <span class="txtvibookicon">KHẨU TRANG - VĨNH TIẾN</span>
+                    </div>
+                    <h4 style="color:#ff0000 ; margin-top:5px">KHẨU TRANG Y TẾ VĨNH TIẾN</h4>
+                    <p><em><strong>3HMASK - KHẨU TRANG Y TẾ 3 LỚP</strong></em></p>
+                    <p><b>Vĩnh Tiến – Thương hiệu uy tín</b>&nbsp;được người tiêu dùng tin chọn hơn 40 năm qua.</p>
+                    <p>Cùng chung tay cộng đồng phòng và&nbsp;<i>chống dịch Covid19</i><b>, Vĩnh Tiến</b>&nbsp;đầu tư trang thiết bị hiện đại với năng suất cao dành cho sản phẩm khẩu trang y tế kháng khuẩn cao cấp.</p>
+                    <p>Với chất liệu thân thiện với sức khỏe và môi trường, khẩu trang&nbsp;<b>3HMask</b>&nbsp;không gây bí bách, gây nóng các vùng da tiếp xúc</p>
+                    <p>Ngoài ra, Lớp lót bên trong&nbsp;<b>khẩu trang 3H mask</b>&nbsp;được sử dụng chất liệu vải không dệt, đặc biệt không phân rã, chia tách hoặc rách trong quá trình sử dụng. Lớp giấy kháng khuẩn được&nbsp;<b><i>nhập khẩu từ Hàn Quốc&nbsp;</i></b>với 98+ hiệu suất lọc khuẩn, không gây mùi hôi.</p>
+                    <p><b>Khẩu trang y tế “ 3HMask”</b>&nbsp;chống thấm nước cực tốt và hạn chế tối đa các giọt bắn từ xung quanh, giúp bảo vệ người sử dụng được an toàn hơn trong các bệnh truyền nhiễm qua không khí và bụi bẩn. Dây đeo được sử dụng bằng chất liệu thun cao cấp, dàn hồi tốt, co giãn theo từng kích cỡ khuôn mặt.</p>
+                    <a href="list_of_produce.html" class="home-link_more" /"><span>xem tất cả</span"></a>
+                </div>
+            </div>
+        </div>
+        <div id="vnt-homelink" class="lazyloading showlazy">
+            <div class="wrapper">
+                <div class="gridL">
+                    <div class="col c1">
+                        <div class="title">
+                            <h2>THIẾT KẾ  - IN THEO YÊU CẦU</h2>
+                            <span>Trách nhiệm với cộng đồng -Tính Sáng tạo - Chất lượng cao</span>
+                        </div>
+                        <div class="content">
+                            <div class="link_wrap">
+                                <a class="link" href="#"><span>Thiết kế in tập trường học</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#"><span>Thiết kế - in tập công ty</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#" "><span>Sản phẩm gia công</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#"><span>Thiết kế in số</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col c2">
+                        <div class="title" ">
+                            <h2>dịch vụ</h2>
+                            <span>Trách nhiệm với cộng đồng -Tính Sáng tạo - Chất lượng cao</span>
+                        </div>
+                        <div class="content">
+                            <div class="link_wrap">
+                                <a class="link" href="#"><span>Ưu đãi chương trình từ thiện</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#"><span>Gia công tập theo yêu cầu</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#"><span>Xuất khẩu bằng container</span></a>
+                            </div><div class="link_wrap">
+                                <a class="link" href="#"><span>Dịch vụ khác</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="vnt-story" class="lazyloading hidden-sm hidden-xs showlazy">
+            <div class="wrapper">
+                <div class="story">
+                    <div class="img"><img src="images/quatangcuocsong.png"></div>
+
+                    <div class="text">
+                        Tổng hợp những câu chuyện hay, ý nghĩa giúp bạn có những bài học sâu sắc về công việc, bạn bè, gia đình trong cuộc sống này.<br>
+                        <strong>Hãy luôn vui vẻ và yêu đời.</strong>
+                    </div>
+
+                    <div class="link" style="text-align: center"><a href="#"><span>xem các câu chuyện hay</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="vnt-news" class="lazyloading showlazy">
+            <div class="wrapper">
+                <div class="boxHome">
+                    <div class="title" style="transition-delay: 0.2s;">
+                        <h2>tin tức - sự kiện <span>mới</span></h2>
+                    </div>
+                    <div class="content1">
+                        <div class="menuTab" >
+                            <ul>
+                                <li><a href="#">Tin tức &amp; Sự kiện</a></li>
+                                <li><a href="#">Tin khuyến mãi</a></li>
+                                <li><a href="#">Tin tuyển dụng</a></li>
+                                <li><a href="#">Tin công ty</a></li>
+                                <li><a href="#">Tin Giáo Dục</a></li>
+                                <li><a href="#">Tin sức khỏe</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-m-5 col-sm-12 col-xs-12">
+                                <div class="news focus" itemscope="" itemtype="#" >
+                                    <div class="img" >
+                                        <a href="#">
+                                            <img src="images/news1.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="tend"><h3><a class="black link-deco" href="#">Vĩnh Tiến trao tặng khẩu trang cho bệnh viện Nhiệt Đới TPHCM</a></h3></div>
+                                        <div class="clock">
+                                            18/05/2021 - 223 lượt xem
+                                        </div>
+                                        <div class="des" >Ngày 17/05/2021, Công ty cổ phần giấy Vĩnh Tiến trao tặng khẩu trang cho bệnh viện Nhiệt Đới.</div>
+                                        <div class="link"><a href="#"><span>chi tiết</span></a></div>
+                                    </div>                                    
+                                </div>
+                                <div class="viewAll" ><a href="#"><span>xem tất cả</span></a></div>
+                            </div>
+                            <div class="col-lg-7 col-m-7 col-sm-12 col-xs-12">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="news" >
+                                            <div class="img" >
+                                                <a href="#">
+                                                    <img src="images/news2.jpg" >
+                                                </a>
+                                            </div>
+                                            <div class="caption">
+                                                <div class="tend"><h3><a  href="#">Bệnh viện Hùng Vương tiếp nhận 40.000 khẩu trang y tế do Công ty cổ phần giấy Vĩnh Tiến trao tặng</a></h3></div>
+                                                <div class="clock">
+                                                    18/05/2021 - 496 lượt xem
+                                                </div>
+                                            </div>                                                                                       
+                                        </div>
+                                    </div><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="news" >
+                                            <div class="img" >
+                                                <a href="#">
+                                                    <img src="images/news3.jpg" >
+                                                </a>
+                                            </div>
+                                            <div class="caption">
+                                                <div class="tend"><h3 "><a href="#">TP.HCM: Không đeo khẩu trang nơi công cộng sẽ bị phạt từ ngày 5-8</a></h3></div>
+                                                <div class="clock">
+                                                    04/08/2020 - 973 lượt xem
+                                                    <meta itemprop="datePublished" content="04/08/2020">
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="news" >
+                                            <div class="img" >
+                                                <a href="#">
+                                                    <img src="images/news4.jpg" >
+                                                </a>
+                                            </div>
+                                            <div class="caption">
+                                                <div class="tend"><h3 ><a href="#">Thai phụ bị COVID-19 có thể truyền bệnh cho con?</a></h3></div>
+                                                <div class="clock">
+                                                    04/08/2020 - 1399 lượt xem
+                                                </div>
+                                            </div>                                         
+                                        </div>
+                                    </div><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="news"  >
+                                            <div class="img" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+                                                <a href="#">
+                                                    <img src="images/news5.jpg" >
+                                                </a>
+                                            </div>
+                                            <div class="caption">
+                                                <div class="tend"><h3 ><a href="#">GIẤY VĨNH TIẾN vào Top 10 Thương hiệu tiêu biểu Châu Á-Thái Bình Dương</a></h3></div>
+                                                <div class="clock">
+                                                    24/06/2020 - 1671 lượt xem
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="menufoot">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="whiteText1" href="home.html"><i class="bi bi-house"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="about_us.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Thiết kế-theo-yêu cầu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="News.html">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Hình ảnh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Bảng giá</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Đối tác</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText1" href="#">Hệ thống phân phối</a>
+                </li>
+                <li class="nav-item">
+                    <a class="whiteText2" href="contact.html">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="vnt-bot ">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="boxBot" style="margin-bottom: 20px;">
+                            <div class="title">CÔNG TY CỔ PHẦN GIẤY VĨNH TIẾN</div>
+                            <div class="content">
+                                <div class="address">
+                                    <ul>
+                                        <li class="fa-home">Công ty: 99 Cao Xuân Dục, Phường 12, Quận 8, Thành phố Hồ Chí Minh</li>
+                                        <li class="fa-home">VPGD: 1068 Tạ Quang Bửu, Phường 6, Quận 8, TP.HCM</li>
+                                        <li class="fa-phone">(028).38557575 - 38571003 - 39120915</li>
+                                        <li class="fa-print">(028).38560714</li>
+                                        <li class="fa-envelope">info@vinhtien.vn, kinhdoanh@vinhtien.vn</li>
+                                        <li class="fa-globe">www.vinhtienpaper.com.vn</li>
+                                    </ul>
+                                    <a href="https://www.vinhtienpaper.com.vn/vn/lien-he.html" class="viewMap"><span>Xem bản đồ</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                        <div class="boxBot">
+                            <div class="title">HỖ TRỢ KHÁCH HÀNG</div>
+                            <div class="content">
+                                <div class="botLink">
+                                    <ul>
+                                        <li>
+                                            <a class="chinhsach" href="#">Chính sách đổi hàng</a>
+                                        </li>
+                                        <li>
+                                            <a class="chinhsach" href="#">Thanh toán và vận chuyển</a>
+                                        </li>
+                                        <li>
+                                            <a class="chinhsach" href="#">Chính sách bảo mật thông tin</a>
+                                        </li>
+                                        <li>
+                                            <a class="chinhsach" href="#">Chính sách công ty</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                        <div class="boxBot">
+                            <div class="title">ĐĂNG KÝ NHẬN MAIL</div>
+                            <div class="content">
+                                <div class="formRecive">
+                                    <div class="txt">Nhập email của bạn vào đây để nhận được những thông tin - khuyến mãi mới nhất của chúng tôi.</div>
+                                    <form class="add_mail_form" action="#" method="POST">
+                                        <input name="receive_mail" id="receive_mail" type="text" placeholder="Nhập email của bạn...">
+                                        <input name="do_mail" value="1" type="hidden">
+                                        <input type="hidden" id="page_url" name="page_url" value="">
+                                        <button name="do_recive" type="submit" value="1"><span>Gửi</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="vnt-foot lazyloading showlazy">
+                <div class="fl">
+                    <div class="copyright" style="transition-delay: 0.8s;">
+                        <div class="copy">Copyright © 2017 <strong>CÔNG TY CỔ PHẦN GIẤY VĨNH TIẾN</strong></div>
+                    </div>
+                </div>
+                <div class="fr">
+                    <div class="socialFoot">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="#">
+                                    <div class="blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path xmlns="http://www.w3.org/2000/svg" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                        </svg>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                    <div class="blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                        </svg>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                    <div class="blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style=" color: #ffff; background: #ed1c22; margin-top: 10px; margin-left: 10px;  " width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                        </svg>
+                                    </div>
+
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="linkBot" style="transition-delay: 1.2s;">
+                        <div class="title">Liên kết link---</div>
+                        <ul>
+                            <li><a href="" target="_blank">Google</a></li>
+                            <li><a href="" target="_blank">Youtube</a></li>
+                            <li><a href="" target="_blank">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="congthuong lazyloading showlazy">
+                <div class="img"><img src="https://www.vinhtienpaper.com.vn/vnt_upload/weblink/congthuong.png" alt=""></div>
+                <div class="txt">
+                    <p>Giấy phép kinh doanh số: 0311795831 cấp ngày 21/05/2012 bởi Sở Kế hoạch và Đầu Tư TP.Hồ Chí Minh.</p>
+                    <p>Người đại diện: Ông Lâm An Dậu</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
